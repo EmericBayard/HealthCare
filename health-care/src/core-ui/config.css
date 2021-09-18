@@ -1,0 +1,19 @@
+:root {
+    --background-color: #E5E5E5;
+    --basic-font: Helvetica;
+    --custom-font: Rubik;
+    --black: #031126;
+    --blue-gradient: linear-gradient(#3E8AFC 0%, #0C6AF6 100%);
+    --paragraphe-color: #242526;
+    --body-font-size:16px;
+    --text-input-font-size: 16px;
+    --secondary-input-font-size: 14px;
+}
+
+@font-face {
+    --font-family: "rubik";
+    font-display: swap;
+    src: url('../assets/font/Rubik/static/Rubik-Black.ttf') format('truetype');
+
+
+}

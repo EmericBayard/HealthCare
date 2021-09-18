@@ -44,3 +44,18 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Note de développement
+
+17/09/2021 : 
+    .   Project architecture 
+            source : https://www.youtube.com/watch?v=XEO3mFvrDx0&t=1032s&ab_channel=PedroTech
+    .   Navbar developpement
+            source : https://web.dev/fast/#optimize-your-images 
+            .   good idea to compress svg with : svgo
+            .   no lazy loading here because the logo is directly on the screen
+            . installation of react-hamburger for animation
+    .   Creation of config css
+            .   first step is to get all color and font from figma and put them into a single css file
+            .   What is the best wayto handle fonts ? I use font swap to tells the browser that text using this font should be displayed immediately using a system font. Once the custom font is ready, the system font is swapped out.
+
