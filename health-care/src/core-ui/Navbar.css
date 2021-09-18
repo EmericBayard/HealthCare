@@ -1,0 +1,93 @@
+@import './config.css';
+
+.Navbar {
+    font-family: var(--basic-font);
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;  
+    display: flex;
+    justify-content:space-between;
+    margin-top:1%;
+}
+
+.LogoDropdown {
+    width: 10%;
+    height: 50%;
+    /* margin-top: 2.4%; */
+    /* margin-top:1.9vh; */
+}
+
+
+
+
+.Logo {
+    width: 10%;
+    height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Menu {
+    width: 60%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    list-style:none;
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+
+
+.Hamburger {
+    margin-left: 40vw;
+}
+.DropdownMenu {
+    width: 15%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    list-style:none;
+    font-size: 18px;
+    font-weight: 500px;
+    position: absolute;
+    align-items: flex-start;
+    margin-left: -17%;
+}
+
+.ButtonDropdown{
+    width: 100%;
+    border-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: var(--blue-gradient);
+    border-radius: 66px;
+    color: var(--background-color);
+    height: 3vh;
+    box-shadow: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.ButtonContainer {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.Menu li:hover {
+    opacity: 0.5;
+    transition: all 0.3s ease-out;
+}
+
+
+.Button {
+    width: 10%;
+    border-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: var(--blue-gradient);
+    border-radius: 66px;
+    color: var(--background-color);
+    height: 5vh;
+    box-shadow: none;
+}
