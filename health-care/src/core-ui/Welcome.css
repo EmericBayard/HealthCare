@@ -1,0 +1,31 @@
+.Welcome {
+    width:100%;
+    height:100vh;
+    background: url(../assets/img/welcome.svg);
+    background-size: cover;
+    /* background: red; */
+}
+
+.WelcomeContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    width:50%;
+    margin-left: 6%;
+}
+
+.ButtonFull {
+    width: 30%;
+    border-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: var(--blue-gradient);
+    border-radius: 66px;
+    color: var(--background-color);
+    height: 5vh;
+    box-shadow: none;
+}
+
+.HigherText {
+    display:inherit;
+}

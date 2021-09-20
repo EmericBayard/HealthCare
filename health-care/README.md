@@ -58,4 +58,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
     .   Creation of config css
             .   first step is to get all color and font from figma and put them into a single css file
             .   What is the best wayto handle fonts ? I use font swap to tells the browser that text using this font should be displayed immediately using a system font. Once the custom font is ready, the system font is swapped out.
-
+    .   Welcome component :
+        . Création du composant welcome
+20/09/2021 : 
+        .       Installation de jest, création des tests pour la navbar
+        .       Utilisation de clamp() pour la police responsiv

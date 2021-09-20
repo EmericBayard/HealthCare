@@ -2,16 +2,20 @@
   "name": "health-care",
   "version": "0.1.0",
   "private": true,
+  "main": "./build/index.js",
   "dependencies": {
+    "@babel/preset-react": "^7.14.5",
     "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
+    "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^26.0.15",
+    "@types/enzyme": "^3.10.9",
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "enzyme": "^3.11.0",
     "hamburger-react": "^2.4.1",
     "i": "^0.3.6",
+    "jest": "^27.2.0",
     "npm": "^7.24.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -42,5 +46,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.14.5",
+    "@types/jest": "^27.0.1"
   }
 }

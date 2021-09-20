@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../core-ui/Navbar.css';
 import Logo from '../../assets/img/logo_comp.svg';
-import { Pivot as Hamburger } from 'hamburger-react'
+import { Pivot as Hamburger } from 'hamburger-react';
 
 // const breakPointSmall = 576;
 // const breakPointMedium = 768;
